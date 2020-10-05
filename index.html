@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Accueil</title>
+
+</head>
+<style>
+
+    @media screen and (min-width: 1438px) {
+        .present h3 {
+            font-size: 35px;
+            margin-left: 80px;
+            bottom: 100px;
+        }
+
+        .present h1 {
+            margin-left: 22px;
+            bottom: 170px
+        }
+
+        .relou {
+            margin-left: 0;
+        }
+
+        .img1 {
+            margin-right: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1340px) {
+        .present h1 {
+            margin-left: 40px;
+            font-size: 65px;
+        }
+
+        .optimiser {
+            margin-left: 10%;
+        }
+    }
+
+    @media screen and (max-width: 1230px) {
+        .present h3 {
+            font-size: 25px;
+            margin-left: 70px;
+        }
+
+        .container {
+            width: 43%;
+            height: 40%;
+        }
+
+        .present h1 {
+            margin-left: 20px;
+            font-size: 55px;
+            margin-bottom: 40px;
+        }
+
+        .container2 {
+            padding-top: 20px;
+        }
+
+        .container2 h2 {
+            font-size: 30px;
+        }
+
+        .container2 p {
+            font-size: 16px;
+        }
+
+        .securiser {
+            margin-left: 4%;
+        }
+
+        .simplifier {
+            margin-left: 7%;
+        }
+
+        .faciliter {
+            margin-left: 7%;
+        }
+
+        .optimiser {
+            margin-left: 6%;
+        }
+
+        .tet {
+             font-size: 15px;
+         }
+
+        .priorités {
+            font-size: 25px;
+        }
+
+        .pool button {
+            margin-left: 2%;
+        }
+
+        .relou {
+            margin-left: 2%;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .present h3 {
+            font-size: 20px;
+            margin-left: 60px;
+        }
+
+        .container {
+            width: 43%;
+            height: 40%;
+        }
+
+        .present h1 {
+            margin-left: 1px;
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+
+        .supercontainer2 {
+            height: 530px;
+        }
+
+        .container2 {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .container2 h2 {
+            font-size: 25px;
+        }
+
+        .container2 p {
+            font-size: 16px;
+        }
+
+        .securiser {
+            margin-left: 0;
+        }
+
+        .simplifier {
+            margin-left: 0;
+        }
+
+        .faciliter {
+            margin-left: 0;
+        }
+
+        .optimiser {
+            margin-left: 0;
+        }
+
+        .tet {
+            font-size: 13px;
+        }
+
+        .priorités {
+            font-size: 22px;
+        }
+
+        .description {
+            margin-left: 275px;
+        }
+
+        .pool button {
+            margin-left: 0;
+        }
+
+        .relou {
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .present h3 {
+            font-size: 17px;
+            margin-left: 60px;
+        }
+
+        .container {
+            width: 43%;
+            height: 40%;
+        }
+
+        .present h1 {
+            margin-left: 4px;
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+
+        .container2 p {
+            font-size: 14px;
+        }
+
+        .securiser {
+            width: 150px;
+            height: 150px;
+        }
+
+        .simplifier {
+            width: 150px;
+            height: 150px;
+        }
+
+        .faciliter {
+            width: 150px;
+            height: 150px;
+        }
+
+        .optimiser {
+            width: 150px;
+            height: 150px;
+        }
+
+        .container3 {
+            height: 730px;
+        }
+
+        .priorités {
+            font-size: 20px;
+        }
+
+        .container4 img {
+            width: 20%;
+            margin-right: 8px;
+            margin-left: 5px;
+        }
+
+        .titre {
+            margin-left: 210px;
+        }
+
+        .description {
+            margin-left: 200px;
+        }
+
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .present h3 {
+            font-size: 15px;
+            margin-left: 10%;
+        }
+
+        .container {
+            width: 40%;
+            height: 37%;
+            bottom: 200px;
+        }
+
+        .supercontainer2 {
+            height: 470px;
+        }
+
+        .present h1 {
+            font-size: 30px;
+            margin-bottom: 5px;
+            left: 16%;
+        }
+
+        .container2 h2 {
+            font-size: 20px;
+        }
+
+        .container2 p {
+            font-size: 12px;
+        }
+
+        .securiser {
+            width: 130px;
+            height: 130px;
+        }
+
+        .simplifier {
+            width: 130px;
+            height: 130px;
+        }
+
+        .faciliter {
+            width: 130px;
+            height: 130px;
+        }
+
+        .optimiser {
+            width: 130px;
+            height: 130px;
+        }
+        .priorités {
+            font-size: 18px;
+        }
+
+        .submit {
+            margin-left: 42%;
+        }
+
+        .linked {
+            margin-left: 48%;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .present h3 {
+            font-size: 12px;
+            margin-left: 11%;
+            bottom: 15px;
+        }
+
+        .container {
+            width: 37%;
+            height: 34%;
+            bottom: 200px;
+        }
+
+        .present h1 {
+            font-size: 25px;
+            margin-bottom: 15px;
+            bottom: 45%;
+            left: 16%;
+        }
+
+        .supercontainer2 {
+            height: 420px;
+        }
+
+        .container2 h2 {
+            font-size: 18px;
+        }
+
+        .container2 p {
+            font-size: 10px;
+        }
+
+        .securiser {
+            width: 110px;
+            height: 110px;
+        }
+
+        .simplifier {
+            width: 110px;
+            height: 110px;
+        }
+
+        .faciliter {
+            width: 110px;
+            height: 110px;
+        }
+
+        .optimiser {
+            width: 110px;
+            height: 110px;
+        }
+        .priorités {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+        .present h3 {
+            font-size: 10px;
+            margin-left: 11%;
+            bottom: 15px;
+        }
+
+        .container {
+            width: 37%;
+            height: 34%;
+            bottom: 120px;
+        }
+
+        .present h1 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            bottom: 45%;
+            left: 16%;
+        }
+
+        .supercontainer2 {
+            height: 400px;
+            margin-left: 0;
+        }
+
+        .container22 {
+            display: none;
+        }
+
+        .container2 {
+            width: 100%;
+            margin: 0 20px
+        }
+
+        .container2 h2 {
+            font-size: 22px;
+        }
+
+        .container2 p {
+            font-size: 13px;
+        }
+
+        .img1 {
+            width: 100%;
+        }
+
+        .container3 {
+            height: 920px;
+        }
+
+        .container3 h3 {
+            margin-bottom: 0;
+        }
+
+        .FACILITER {
+            margin: 0;
+        }
+
+        .OPTIMISER {
+            margin: 0;
+        }
+        .SECURISER {
+            margin: 0;
+        }
+        .SIMPLIFIER {
+            margin: 0;
+        }
+
+        .securiser {
+           margin: auto 40%;
+        }
+
+        .simplifier {
+            margin: auto 40%;
+        }
+
+        .faciliter {
+            margin: auto 40%;
+        }
+
+        .optimiser {
+            margin: auto 40%;
+        }
+
+        .container33 {
+            display: inline;
+        }
+
+        .priorités {
+            font-size: 12px;
+        }
+
+        .objectifs {
+            font-size: 30px;
+        }
+
+        .description {
+            margin-left: 117px;
+        }
+
+        .titre {
+            margin-left: 0;
+        }
+
+    }
+
+    @media screen and (max-width: 450px) {
+        .present h3 {
+            font-size: 9px;
+            margin-left: 5%;
+            bottom: 15px;
+        }
+
+        .container {
+            width: 37%;
+            height: 34%;
+            bottom: 120px;
+        }
+
+        .present h1 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            bottom: 45%;
+            left: 16%;
+        }
+
+        .container2 {
+            padding-top: 5px;
+        }
+
+        .container2 p {
+            font-size: 12px;
+        }
+
+        .securiser {
+            margin: auto 38%;
+        }
+
+        .simplifier {
+            margin: auto 38%;
+        }
+
+        .faciliter {
+            margin: auto 38%;
+        }
+
+        .optimiser {
+            margin: auto 38%;
+        }
+
+        .description {
+            margin-left: 91px;
+        }
+
+        .contact {
+            font-size: 14px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .submit {
+            margin-left: 37%;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .present h3 {
+            font-size: 9px;
+            margin-left: 2%;
+            left: 6px;
+            bottom: 10px;
+        }
+
+        .container {
+            width: 37%;
+            height: 34%;
+            bottom: 120px;
+        }
+
+        .present h1 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            bottom: 40%;
+            left: 10%;
+        }
+
+        .container2 p {
+            font-size: 11px;
+        }
+
+        .tet {
+            font-size: 12px;
+        }
+
+        .securiser {
+            margin: auto 34%;
+        }
+
+        .simplifier {
+            margin: auto 34%;
+        }
+
+        .faciliter {
+            margin: auto 34%;
+        }
+
+        .optimiser {
+            margin: auto 34%;
+        }
+
+        .description {
+            margin-left: 80px;
+        }
+
+        .objectifs {
+            font-size: 25px;
+        }
+
+
+    }
+
+    @media screen and (max-width: 345px) {
+        .present h3 {
+            font-size: 8px;
+            margin-left: 2%;
+            left: 6px;
+            bottom: 10px;
+        }
+
+        .container {
+            width: 37%;
+            height: 34%;
+            bottom: 90px;
+        }
+
+        .present h1 {
+            font-size: 14px;
+            margin-bottom: 15px;
+            bottom: 40%;
+            left: 10%;
+        }
+
+        .container2 {
+            padding-top: 18px;
+        }
+
+        .container2 p {
+            font-size: 10px;
+        }
+
+        .container2 h2 {
+            font-size: 20px;
+        }
+
+
+    }
+</style>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="Logo_V2.jpeg" alt="" style="width: 30px">
+    <a class="navbar-brand" href="index.html">SmartHorse</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item" data-toggle="collapse">
+                <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse">
+                <a class="nav-link" href="blockchain.html">La technologie blockchain</a>
+            </li>
+            <li class="nav-item" style="background-color: white; height: 23px; width: 23px; margin-top: 8px; margin-left: 8px">
+                <img src="https://www.makrea.com/img_pngs/RS03.png" alt="logo linkedin" style="width: 25px; padding-bottom: 5px">
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="banner">
+    <img src="https://images.pexels.com/photos/677874/pexels-photo-677874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <div class="container">
+        <div class="present">
+            <h1>SMARTHORSE</h1>
+            <h3>Investissez en toute sécurité</h3>
+        </div>
+    </div>
+</section>
+
+<div class="supercontainer2">
+    <div class="container22">
+        <img src="https://thumbs.dreamstime.com/b/un-homme-utilisant-smartphone-assis-devant-ordinateur-portable-au-bureau-gentil-qui-utilise-dans-moderne-focus-s%C3%A9lectif-159952138.jpg" style="width: 45%; height: 100%; position: absolute">
+    </div>
+    <div class="container2">
+        <h2 style="color: #EED142; padding-top: 10px">QUI SOMMES NOUS ?</h2>
+        <br>
+        <p>SmartHorse est une société fondée en 2020 par deux amis entrepreneurs, souhaitant contribuer au développement de la filière hippique par l'apport de nouvelles technologies</p>
+        <p>Passionnés de courses hippiques et férus de nouvelles technologies, notre volonté est de vous proposer une solution, permettant une gestion simplifiée et sécurisée de vos processus de transaction lors de l'achat et/ou vente de parts et saillies d'étalons, en s'appuyant sur la technologie blockchain.</p>
+        <p>En effet, nous sommes partis du constat qu'aujourd'hui dans le milieu des courses hippiques, le marché des parts d’étalons et des saillies représente un flux financier très important et beaucoup d’acteurs économiques sont mis en relation avec un processus administratif complexe.</p>
+    </div>
+</div>
+
+<div class="container3">
+    <h1 class="objectifs">NOS OBJECTIFS</h1>
+    <h3 class="priorités">Chez SmartHorse, nos objectifs sont nombreux mais nos priorités sont les suivantes : </h3>
+    <div class="container33">
+        <div class="img1">
+            <img src="https://static.wixstatic.com/media/175d9a096f174d819f80b533069116cb.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01/Client%207.webp" class="faciliter">
+            <p class="FACILITER">FACILITER</p>
+            <p class="fac tet">La mise en relation entre l’ensemble des acteurs</p>
+        </div>
+        <div class="img1">
+            <img class="simplifier" src="https://static.wixstatic.com/media/64453492563a4dd4a6fff4dd901e6040.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01/Client%208.webp">
+            <p class="SIMPLIFIER">SIMPLIFIER</p>
+            <p class="sim tet">Le processus administratif en établissant des contrats prédéfinis, validés juridiquement et enregistrés dans la blockchain</p>
+        </div>
+        <div class="img1">
+            <img class="securiser" src="https://static.wixstatic.com/media/0fa92a967c76420a83938ecadb5ba4f2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01/Client%202.webp">
+            <p class="SECURISER">SECURISER</p>
+            <p class="sec tet">Le processus de paiement pour l’ensemble des parties</p>
+        </div>
+        <div class="img1">
+            <img class="optimiser" src="https://static.wixstatic.com/media/8083f7b02b824feaac22f26d88b3f5a8.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01/Client%203.webp">
+            <p class="OPTIMISER">OPTIMISER</p>
+            <p class="opt tet">La gestion des actifs avec des synthèses visualisables instantanément</p>
+        </div>
+    </div>
+</div>
+
+<div class="container4">
+    <h1 class="objectifs">ILS NOUS FONT CONFIANCE</h1>
+    <div class="pool">
+        <img src="https://lepoool.tech/wp-content/uploads/2019/06/logo_le-poool_mobile.png">
+        <p class="titre">LE POOL</p>
+        <div class="description">
+            <p>Acteur central de l’écosystème de l’innovation et de l’entrepreneuriat, Le Poool accompagne les entreprises et anime la dynamique territoriale bretonne.</p>
+            <button>En savoir plus</button>
+        </div>
+
+    </div>
+    <div class="startme">
+        <img src="https://static.wixstatic.com/media/1abeb3_b13147ccaac64cfc8432505550e7d1a2~mv2.jpg/v1/fill/w_440,h_220,al_c,q_80,usm_0.66_1.00_0.01/Logo-SMU2019-840x420.webp">
+        <p class="titre">STARTMEUP</p>
+        <div class="description">
+            <p>StartMeUp est un programme d’accélération du Poool s’adressant aux porteurs de projet qui voudraient monter rapidement en compétences pour faire de leur projet une belle entreprise et aux entreprises innovantes, non créées ou de moins de 6 mois, implantées ou souhaitant s’implanter sur le territoire.</p>
+            <button class="relou">En savoir plus</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="container5">
+    <h1>CONTACT</h1>
+    <p class="contact">Vous êtes intéressés par la solution et souhaitez en savoir plus ?
+        <br>Contactez nous sans plus tarder et nous nous ferons un plaisir de planifier un temps d'échange avec vous.</p>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Objet">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Rédigez votre message ici..."></textarea>
+        </div>
+        <button class="submit">Envoyez</button>
+    </form>
+    <h2>SMARTHORSE</h2>
+    <div class ="linked">
+    <img src="https://www.makrea.com/img_pngs/RS03.png" alt="logo linkedin" style="width: 25px; padding-bottom: 5px">
+    </div>
+    <br> <p class="foot">©2020 par SmartHorse. </p>
+
+
+</div>
+
+
+
+</body>
+
+</html>

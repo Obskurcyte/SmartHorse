@@ -1,0 +1,19 @@
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+nav li a{
+    color: white;
+}
+
+nav ul {
+    position: absolute;
+    left: 74%;
+}
+
+.smart {
+    color: white;
+}
+
+
