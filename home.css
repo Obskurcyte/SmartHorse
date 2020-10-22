@@ -23,10 +23,40 @@
     z-index: 4;
 }
 
+.nav-logo {
+    width: 2%;
+    margin-right: 1%;
+}
+
+.present h3 {
+    font-size: 200%;
+    position: absolute;
+    top: 60%; left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.present h1 {
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .navbar-collapse.in {
     overflow-y: visible;
 }
+.solution {
+    margin-bottom: 0;
+}
+.container-text {
+    position: absolute;
+    max-width: 38%;
+    bottom: 5%;
+}
 
+.container-text h2 {
+    margin-bottom: 8%;
+}
 .present h3{
     bottom: 100px;
     left: 15px;
@@ -61,8 +91,8 @@
     height: 100%;
     text-align: center;
     margin-left: 45%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 80px;
 }
 
@@ -135,14 +165,17 @@
     height: 750px;
 }
 
+.colle {
+    margin-left: 3%;
+}
+
 .container3 h1{
     color: #EED142;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .container3 h3{
     color: white;
-    margin-bottom: 50px;
 }
 
 .FACILITER {
@@ -171,7 +204,7 @@
 }
 
 .container33{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .tet {
@@ -217,17 +250,133 @@
     padding-top: 100px;
 }
 
+.image-startme img {
+    width: 80%;
+    margin-right: 2%;
+}
 
+.image-startme {
+    margin-right: 3%;
+    display: inline;
+}
+.startme {
+    display: flex;
+}
+.container-start {
+    display: flex;
+    flex-direction: column;
+
+}
 .titre{
-    margin-left: 30px;
     font-size: 1.5em;
     color: #EED142;
 }
 
+.container-chiant {
+    position: relative;
+}
+
+.cheval-mobile {
+    display: none;
+}
+
+.gris {
+    height: 80px;
+}
+
+.footer-vrai {
+    margin-left: 50px;
+    margin-right: 50px
+}
+.social-network {
+    background-color: lightgrey;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.network-icons {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.network-text {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.pages {
+    margin-right: 5%;
+}
+.rubric {
+    display: flex;
+}
+
+hr {
+    width: 100%;
+}
+
+.network-text h6 {
+    color: black;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.copyright {
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+.copyright-text {
+    position: absolute;
+    left: 42%;
+    top: 20%;
+}
+
+.copyright p {
+    color: white;
+    font-weight: bold;
+}
+.home {
+    display: flex;
+}
+.home i {
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.mail {
+    display: flex;
+}
+.mail i {
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.footer-2 {
+    width: 120px;
+}
+
+.container-footer {
+    display: flex;
+    width: 800px;
+    align-content: space-between
+}
+.mail {
+    font-size: 15px;
+}
+
+.footer-logo {
+    width: 60px;
+}
 .description {
-    margin-left: 300px;
-    max-width: 60%;
-    padding: 10px;
+    max-width: 90%;
     box-sizing: content-box;
 }
 
@@ -235,11 +384,17 @@
     text-align: justify;
 }
 
-.relou {
-    margin-left: 0;
-    font-size: 0.8em;
-    border: none;
+.chiant {
+    position: absolute;
+    left: 0;
+    width: 105px;
 }
+.chiant button {
+    border: none;
+    font-size: 0.8em;
+    width: 100%;
+}
+
 button {
     background-color: #EED142;
     padding: 10px;
@@ -248,6 +403,35 @@ button {
 .pool button {
     font-size: 0.8em;
     border: none;
+}
+.chiant1 button {
+    width: 100%;
+}
+.pool {
+    display: flex;
+}
+.container-chiant1 {
+    position: relative;
+}
+.chiant1 {
+    position: absolute;
+    left: 0;
+    width: 105px;
+}
+
+.pool-image {
+    display: inline;
+    width: 17%;
+    margin-right: 4%;
+}
+
+.pool-image img {
+    width: 100%;
+    margin-left: 10%;
+}
+.container-pool {
+    display: flex;
+    flex-direction: column;
 }
 
 .container5 h1 {
@@ -298,10 +482,14 @@ form {
 }
 
 .linked {
-    background-color: white;
-    width: 25px;
-    height: 25px;
-    margin-left: 49%;
+    margin-left: 47%;
+    margin-right: 47%;
+    display: inline;
+}
+
+.linked img {
+    width: 6%;
+    height: 5%;
     margin-bottom: 0
 }
 

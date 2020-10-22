@@ -5,23 +5,34 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SmartHorse | Blockchain</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="blockchain.css">
-    <script src="https://kit.fontawesome.com/8dd9cbef80.js" crossorigin="anonymous"></script>
-
+    <link rel="icon" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f7131c55f8.js" crossorigin="anonymous"></script>
 </head>
 
 <style>
 
-    @media screen and (max-width: 1441px) {
+
+    @media screen and (min-width: 1441px) {
         .present {
             bottom: 50px;
         }
 
+        .rubric {
+            margin-right: 18%;
+        }
+        .pages {
+            width: 400px;
+            padding-right: 30%;
+        }
         .present h3 {
-            font-size: 18px;
+            font-size: 16px;
         }
 
         .footer-2 {
@@ -30,13 +41,35 @@
 
         .col-xl-2 {
             flex: 0 0 30%;
-            max-width: 30%;
+            max-width: 100%;
         }
+    }
+
+   @media screen and (max-width: 1441px) {
+        .present {
+            bottom: 50px;
+        }
+
+        .present h3 {
+            font-size: 16px;
+        }
+
+        .footer-2 {
+            width: 300px;
+        }
+
+       .rubric {
+           margin-right: 18%;
+       }
+       .pages {
+           width: 400px;
+           padding-right: 30%;
+       }
     }
 
     @media screen and (max-width: 1360px) {
         .present {
-            bottom: 100px;
+            bottom: 5%;
         }
     }
 
@@ -77,7 +110,12 @@
         .present {
             bottom: 40px;
         }
-
+        .pages {
+            width: 400px;
+        }
+        .rubric {
+            margin-right: 0;
+        }
         .present h3 {
             font-size: 12px;
         }
@@ -91,7 +129,7 @@
         }
     }
 
-    @media screen and (max-width: 980px) {
+    @media screen and (max-width: 977px) {
         .present {
             bottom: 10px;
         }
@@ -103,47 +141,51 @@
         .present h1 {
             font-size: 30px;
         }
+
+        .copyright {
+            height: 80px;
+        }
+        .copyright-text {
+            left: 38%;
+        }
+
     }
 
     @media screen and (max-width: 900px) {
         .present {
-            bottom: 0;
+            bottom: 6%;
         }
 
+        .image-logo {
+            width: 4%;
+        }
+
+        .pages {
+            width: 300px;
+        }
         .present h3 {
             font-size: 9px;
         }
-
         .present h1 {
             font-size: 25px;
         }
-
-        .reseaux {
-            font-size: 13px
-        }
-
-        .footer-vrai {
-            margin-top: 0;
-            padding-bottom: 20px;
-        }
-
-        .container-footer {
-            display: flex;
-            width: 800px;
-            position: absolute;
-            left: 200px;
-            margin-bottom: 10px;
-            align-content: space-between;
+        .footer-text {
+            height: 250px;
+            margin-top: 15%;
         }
     }
 
-    @media screen and (max-width: 740px) {
+    @media screen and (max-width: 768px) {
         .present {
-            bottom: 0;
+            bottom: 5%;
+        }
+
+        .image-logo {
+            width: 6%;
         }
 
         .present h3 {
-            font-size: 7px;
+            font-size: 8px;
         }
 
         .present h1 {
@@ -151,110 +193,237 @@
         }
     }
 
-    @media screen and (max-width: 600px) {
-        .present {
-            bottom: 0;
-        }
+    @media screen and (max-width: 740px) {
 
-        .present h3 {
-            font-size: 5px;
+        .copyright {
+            height: 100px;
         }
-
-        .present h1 {
-            font-size: 15px;
+        .social-network {
+            height: 100px;
+        }
+        .copyright-text {
+            top: 30%;
+            left: 35%;
+        }
+        .network-icons {
+            left: 70%;
         }
     }
 
-    @media screen and (max-width: 480px) {
+   @media screen and (max-width: 700px) {
+        .footer-text {
+            height: 300px;
+            margin-top: 20%;
+        }
+       .present {
+           bottom: 5%;
+       }
+        .trait {
+            width: 80%;
+        }
+        .pages {
+            padding-right: 10%;
+            width: 250px;
+            margin-right: 0;
+        }
+       .present h3 {
+           font-size: 7px;
+       }
+
+       .present h1 {
+           font-size: 18px;
+       }
+
+   }
+
+    @media screen and (max-width: 600px) {
+
+        .blockchain-image {
+            display: none;
+        }
+
+        .image-logo {
+            width: 7%;
+        }
+
+        .fond-noir {
+            height: 100%;
+        }
+
+       .footer-text {
+           height: 350px;
+       }
         .present {
-            bottom: 30px;
-            left: 20px;
+            bottom: 0;
+            max-width: 90%;
+            left: 5%;
+            text-align: center;
+        }
+        .present .paragraph strong {
+            text-align: center;
         }
 
-        .gris {
-            height: 50px;
+        .banner {
+            height: 500px;
         }
-
         .present h3 {
-            font-size: 4px;
+            font-size: 11px;
+            text-align: center;
         }
 
         .present h1 {
-            font-size: 14px;
+            font-size: 22px;
+        }
+        .social-network {
+            height: 120px;
         }
 
-        .reseaux {
-            padding-right: 150px;
+        .copyright {
+            height: 120px;
+        }
+        .copyright-text {
+            top: 35%;
+            left: 30%;
+        }
+        .network-text h6 {
+            font-size: 13px;
+        }
+        .rubric {
+            display: flex;
+            flex-direction: column;
+            justify-content: unset;
+            margin-top: 10%;
+        }
+        .footer-text{
+            margin-top: 5%;
+            height: 450px;
+        }
+        .image {
+            margin-top: 25%
+        }
+        .pages {
+            margin-bottom: 15%;
+        }
+
+
+
+    }
+
+    @media screen and (max-width: 545px){
+        .present h3 {
             font-size: 10px;
+        }
+        .smart-titre {
+            display: none;
+        }
+
+        .present h1 {
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .footer-text {
+            flex-direction: column;
+            margin-top: 0%;
+            margin-left: 20%;
+            height: 600px;
+        }
+        .network-icons {
+            left: 48%;
+            top: 70%;
+
+        }
+
+        .pages {
+            text-align: center;
+            margin-left: 3%;
+        }
+        .home {
+            margin-left: 20%;
+        }
+        .mail {
+            margin-left: 5%;
+        }
+        .contact {
+            font-size: 14px;
+            padding-right: 35%;
+            text-align: center;
+        }
+        .contact hr {
+            width: 80%;
+            margin-right: 0;
+        }
+        .contact {
+            display: inline-block;
+        }
+        .image {
+            margin-top: 15%;
+            margin-left: 25%;
         }
 
         .banner {
             margin-top: 0;
+            height: 650px;
         }
+
+        .present {
+            height: 100%;
+            top: 7%;
+        }
+
+        .present h3 {
+            font-size: 12px;
+        }
+
+        .present h1 {
+            font-size: 20px;
+        }
+
 
         .paragraph {
             margin-bottom: 10px;
-        }
-
-        .footer-vrai h6 {
-            font-size: 10px;
-            margin-top: 33px;
         }
 
         .mt-5 {
             margin-top: 30px;
         }
 
-        .container-footer {
-            display: flex;
-            width: 400px;
-            left: 100px;
-            position: absolute;
-            margin-bottom: 10px;
-            bottom: 50px;
-            align-content: space-between;
-        }
-
-        .footer-vrai p {
-            font-size: 9px;
-        }
-
-        .footer-2 {
-            width: 120px;
-        }
-
-        .footer-logo {
-            width: 40px;
-            margin-right: 450px;
-            margin-top: 5px
-        }
-
-        .footer-vrai {
-            margin-left: 10px;
-            margin-top: 10px;
-            padding-bottom: 0;
-            margin-bottom: 0;
-        }
-
-        .footer-copyright {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 50px;
-        }
         .Smart {
             margin-right: 450px;
         }
+
+        .network-text {
+            left: 15%;
+        }
+        .copyright-text {
+            left: 25%;
+        }
     }
 
-
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 428px) {
+        .banner {
+            height: 680px;
+        }
+        .image {
+            margin-left: 27%;
+        }
+    }
+    @media screen and (max-width: 410px) {
         .present {
             bottom: 20px;
         }
 
+        .pages {
+            padding-right: 15%;
+        }
+        .contact {
+            padding-right: 37%;
+        }
         .gris {
             height: 50px;
+        }
+        .contact hr {
+            padding-right: 4%;
         }
 
         .reseaux {
@@ -262,12 +431,19 @@
             font-size: 10px;
         }
 
+        .image-logo {
+            width: 8%;
+        }
+
         .present h3 {
-            font-size: 4px;
+            font-size: 12px;
         }
 
         .present h1 {
-            font-size: 13px;
+            font-size: 19px;
+        }
+        .banner {
+            height: 730px;
         }
         .paragraph {
             margin-bottom: 10px;
@@ -276,25 +452,81 @@
             margin-top: 0;
         }
 
-        .footer-vrai h6 {
-            margin-top: 65px;
+        .footer-text {
+            height: 500px;
         }
+
+        .network-text h6 {
+            font-size: 12px;
+        }
+
+         .present {
+            bottom: 5%;
+        }
+
 
     }
 
-    @media screen and (max-width: 321px) {
+   @media screen and (max-width: 390px) {
+
+
+       .copyright-text {
+           left: 15%;
+       }
+
+       .contact {
+           padding-right: 36%;
+       }
+       .contact hr {
+           margin-right: 15px;
+       }
+       .pages {
+           padding-right: 15%;
+       }
+       .footer-text {
+           height: 500px;
+           margin-top: 25%;
+       }
+
+       .network-text h6 {
+           font-size: 12px;
+       }
+
+   }
+
+    @media screen and (max-width: 390px) {
         .present {
             bottom: 15px;
         }
 
-        .present h3 {
-            font-size: 4px;
-            margin-bottom: 2px;
+
+        .present {
+            top: 3%;
         }
 
+        .footer-text {
+            flex-direction: column;
+            margin-top: 0%;
+            margin-left: 20%;
+            height: 600px;
+        }
+
+        .image {
+            margin-top: 15%;
+            margin-left: 25%;
+        }
+
+        .present h3 {
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+
+        .present {
+            bottom: 3%;
+        }
         .present h1 {
-            font-size: 10px;
-            margin-bottom: 10px;
+            font-size: 19px;
+            margin-bottom: 12px;
         }
         .paragraph {
             margin-bottom: 3px;
@@ -314,6 +546,9 @@
         .footer-logo {
             margin-right: 0;
         }
+        .network-text {
+            left: 10%;
+        }
 
         .container-footer {
             display: flex;
@@ -325,6 +560,13 @@
             align-content: space-between;
         }
 
+        .pages {
+            margin-left: 0;
+        }
+
+        .contact {
+            margin-left: 0;
+        }
         .Smart {
             margin-right: 40px;
             margin-top: 10px;
@@ -340,15 +582,35 @@
 
     }
 
+    @media screen and (max-width: 355px){
+        .present h1 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .pages {
+            padding-right: 20%;
+        }
+        .mail {
+            margin-left: 0;
+        }
+        .contact h6 {
+            margin-left: 15%;
+        }
+        .present h3 {
+            font-size: 11px;
+            margin-bottom: 15px;
+        }
+        .network-text h6 {
+            font-size: 11px ;
+        }
 
-
+    }
 
 </style>
 <body>
 
 <nav class="navbar navbar-toggleable-sm navbar-expand-lg navbar-light bg-light">
-    <img src="Logo_V1.png" alt="" style="width: 30px">
-    <a class="navbar-brand" href="index.html">SmartHorse</a>
+    <img src="Logo_V2.jpeg" alt="cheval" class="nav-logo image-logo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -361,20 +623,37 @@
                 <a class="nav-link" href="blockchain.html">La technologie blockchain</a>
             </li>
             <li class="nav-item" style="background-color: white; height: 23px; width: 23px; margin-top: 8px; margin-left: 8px">
-                <img src="https://www.makrea.com/img_pngs/RS03.png" alt="logo linkedin" style="width: 25px; padding-bottom: 5px">
+                <a href="https://www.linkedin.com/company/smarthorse/"><img src="https://www.makrea.com/img_pngs/RS03.png" alt="logo linkedin" style="width: 25px; padding-bottom: 5px"></a>
             </li>
         </ul>
     </div>
 </nav>
 
 <section class="banner" style="margin-bottom: 0">
-    <img alt ="blockchain" src="https://www.paymentsjournal.com/wp-content/uploads/2020/03/1027-scaled.jpg" style="height: 100%">
+    <div class="fond-noir" style="background-color: black;">
+        <div class="present">
+            <h1>LA TECHNOLOGIE BLOCKCHAIN</h1>
+            <div class="paragraph">
+                <h3><strong class="title">La blockchain, une technologie appropriée</strong> <br>
+                    En effet, la blockchain représente une solution technologique naturellement appropriée à la filière équine dans le but de partager des données sur tous les cas d’usage et plus particulièrement ceux d'achats et ventes de chevaux de courses, de parts et de saillies d'étalons.</h3>
+            </div>
+            <div class="paragraph">
+                <h3><strong class="title">Un registre de données partagé et sécurisé</strong> <br>
+                    Les données stockées dans une blockchain seront partageables avec tous les autres acteurs autorisés du réseau. Ainsi, une fois une information vérifiée et inscrite, elle ne sera plus modifiable par aucun des acteurs du réseau. Couplée à ses capacités d’authentification forte et d’horodatage universel, la blockchain est l'outil parfait pour notre projet nécessitant de la traçabilité sur les données et de la transparence dans les échanges.</h3>
+            </div>
+            <div class="paragraph">
+                <h3><strong class="title">De l'automatisation de processus à l'aide des smart contracts</strong> <br>
+                    En mettant en relation directe les différents acteurs intervenant lors d'une transaction, la blockchain nous permet de supprimer des couches d'intermédiation couteuses en efficacité opérationnelle, en délai et en frais financiers. De plus, notre blockchain propose également une technologie d’automatisation de transactions via des règles prédéfinies, appelée "Smart Contract". Ainsi, après autorisation des différentes parties prenantes, ces smart contracts nous permettent d’activer des événements automatisés comme le paiement ou le transfert de données. Soit une multitude d'événements visant à faciliter la collaboration entre les différents acteurs du milieu !</h3>
+            </div>
+        </div>
+    </div>
+    <img alt ="blockchain" src="https://www.paymentsjournal.com/wp-content/uploads/2020/03/1027-scaled.jpg" class="blockchain-image" style="height: 100%">
     <div class="container">
         <div class="present">
             <h1>LA TECHNOLOGIE BLOCKCHAIN</h1>
             <div class="paragraph">
                 <h3><strong class="title">La blockchain, une technologie appropriée</strong> <br>
-                    En effet, la blockchain représente une solution technologique naturellement appropriée à la filière équine dans le but de partager des données sur tous les cas d’usage et plus particulièrement ceux d'achats et ventes de parts et saillies d'étalons.</h3>
+                    En effet, la blockchain représente une solution technologique naturellement appropriée à la filière équine dans le but de partager des données sur tous les cas d’usage et plus particulièrement ceux d'achats et ventes de chevaux de courses, de parts et de saillies d'étalons.</h3>
             </div>
             <div class="paragraph">
                 <h3><strong class="title">Un registre de données partagé et sécurisé</strong> <br>
@@ -388,71 +667,32 @@
     </div>
 </section>
 
-<footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: lightgray" class="gris">
-        <div class="container">
+<footer>
 
-            <!-- Grid row-->
-            <div class="row py-4 d-flex align-items-center">
+    <div class="social-network">
+        <div class="network-text">
+            <h6>Restez connectés avec nous sur les réseaux sociaux !</h6>
+        </div>
+        <div class="network-icons">
 
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                    <h6 class="mb-0 reseaux">Restez connectés avec nous sur les réseaux sociaux !</h6>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                    <!-- Facebook -->
-                    <a class="fb-ic">
-                        <i class="fab fa-facebook-f mr-4"></i>
-                    </a>
-                    <!-- Twitter -->
-                    <a class="tw-ic">
-                        <i class="fab fa-twitter white-text mr-4"> </i>
-                    </a>
-                    <!--Linkedin -->
-                    <a class="li-ic">
-                        <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                    </a>
-                    <!--Instagram-->
-                    <a class="ins-ic">
-                        <i class="fab fa-instagram white-text"> </i>
-                    </a>
-
-                </div>
-                <!-- Grid column -->
-
-            </div>
-            <!-- Grid row-->
+            <!--Linkedin -->
+            <a class="li-ic" href="https://www.linkedin.com/company/smarthorse/">
+                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
 
         </div>
     </div>
 
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-1 footer-vrai">
-
-        <!-- Grid row -->
-        <div class="row mt-4">
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-3 mb-4 image">
-
-                <!-- Content -->
-                <h6 class="text-uppercase font-weight-bold Smart">SmartHorse</h6>
-                <img src="Logo_V2.jpeg" alt="SmartHorse" class="footer-logo">
-
-            </div>
-
-            <div class="container-footer">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-3 col-xl-2 ml-6 mb-4 col-sm-6 col-xs-12 footer-2">
-
-                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold">Pages</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+    <div class="footer-text">
+        <div class="image">
+            <img src="Logo_V2.jpeg" alt="SmartHorse" class="footer-logo">
+        </div>
+        <div class="rubric">
+        <div class="pages">
+            <h6>Pages</h6>
+            <hr class="trait">
+            <div class="pages-text">
                 <p>
                     <a href="index.html" style="text-decoration: none; color: #666161">Accueil</a>
                 </p>
@@ -460,32 +700,29 @@
                     <a href="blockchain.html" style="text-decoration: none; color: #666161">La technologie blockchain</a>
                 </p>
             </div>
-
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-3 col-xl-2 ml-12 mr-3 mb-4 col-sm-6 col-xs-12 cont footer-2">
-
-                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold" style="margin-left: 15px">Contact</h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block" style="width: 60px; margin-left: 15px">
-                <p>
-                    <i class="fas fa-home mr-3"></i> Rennes, 35000, FR</p>
-                <p class="mail">
-                    <i class="fas fa-envelope mr-3"></i> florian.guillet@smarthorse.fr</p>
-
-            </div>
-            <!-- Grid column -->
+        </div>
+        <div class="contact">
+            <h6>Contact</h6>
+            <hr>
+            <div class="contact-text">
+                    <div class="home">
+                        <i class="fas fa-home"></i>
+                        <p>Rennes 35000, FR</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i>
+                        <p>florian.guillet@smarthorse.fr</p>
+                    </div>
             </div>
         </div>
-        <!-- Grid row -->
-
+        </div>
     </div>
-    <!-- Footer Links -->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3" style="background-color: black"><p style="color: white">© 2020 Copyright: SmartHorse</p>
+    <div class="copyright">
+        <div class="copyright-text">
+            <p>© 2020 Copyright: SmartHorse</p>
+        </div>
     </div>
-    <!-- Copyright -->
 
 </footer>
 

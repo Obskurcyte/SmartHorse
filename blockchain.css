@@ -17,6 +17,89 @@
     margin-right: 50px
 }
 
+.home {
+    display: flex;
+}
+
+.home i {
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.mail {
+    display: flex;
+}
+
+.mail i {
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.social-network {
+    background-color: lightgrey;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.network-icons {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.network-text {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.nav-logo {
+    width: 2%;
+    margin-right: 1%;
+}
+
+.pages {
+    margin-right: 5%;
+}
+.rubric {
+    display: flex;
+}
+
+.container-chiant {
+    display: inline;
+}
+hr {
+    width: 100%;
+}
+
+.network-text h6 {
+    color: black;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.copyright {
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+.copyright-text {
+    position: absolute;
+    left: 42%;
+    top: 20%;
+}
+
+.copyright p {
+    color: white;
+    font-weight: bold;
+}
+
 .footer-2 {
     width: 120px;
 }
@@ -24,7 +107,7 @@
 .container-footer {
     display: flex;
     width: 800px;
-    align-content: space-between;
+    align-content: space-between
 }
 .mail {
     font-size: 15px;
