@@ -8,8 +8,7 @@ nav li a{
 }
 
 nav ul {
-    position: absolute;
-    left: 74%;
+    margin-left: 74%;
 }
 
 .smart {
